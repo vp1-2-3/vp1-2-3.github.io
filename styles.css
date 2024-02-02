@@ -1,42 +1,50 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #ff6699, #ffccff); /* Update with your preferred gradient colors */
+    animation: gradientAnimation 2s infinite alternate; /* Animation properties */
 }
 
-.container {
+@keyframes gradientAnimation {
+    from {
+        background-position: 0% 0%;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+.card-container {
     text-align: center;
-    background-color: #fff;
+}
+
+.card {
+    background-color: #ffcccc;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #e60000;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.buttons {
+    margin-top: 20px;
 }
 
 button {
-    padding: 10px;
-    margin-top: 10px;
-    background-color: #3498db;
-    color: #000000;
+    background-color: #e60000;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-button:hover {
-    background-color: #2980b9;
-}
-
-input {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-top: 5px;
-}
-
-p {
-    margin: 10px 0;
+    font-size: 16px;
 }
