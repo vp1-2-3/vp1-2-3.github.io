@@ -1,23 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Valentine's Card</title>
 </head>
-<body>
-    <div class="card-container">
-        <div class="card">
-            <h1>Will you be my Valentine?</h1>
-            <div class="buttons">
-                <button onclick="handleYesClick()">Yes</button>
-                <button onclick="handleNoClick()">No</button>
-            </div>
-        </div>
-    </div>
 
-    <script src="confetti.js"></script>
-    <script src="scripts.js"></script>
+<body>
+
+    <header>
+        <div class="profile">
+            <img src="profile-picture.jpg" alt="Your Profile Picture">
+            <h1>Your Name</h1>
+            <p>Web Developer</p>
+        </div>
+    </header>
+
+    <section class="card" id="about-me">
+        <h2>About Me</h2>
+        <p>
+            Welcome to my personal website! I am a web developer with a passion for creating
+            innovative and user-friendly websites. Explore my work and get to know more about
+            my experiences in the world of web development.
+        </p>
+    </section>
+
+    <section class="card" id="my-projects">
+        <h2>My Projects</h2>
+        <p>
+            Check out my projects on GitHub:
+            <ul>
+                <li><a href="https://github.com/your-username/project-1" target="_blank">Project 1</a></li>
+                <li><a href="https://github.com/your-username/project-2" target="_blank">Project 2</a></li>
+                <li><a href="https://github.com/your-username/project-3" target="_blank">Project 3</a></li>
+            </ul>
+        </p>
+    </section>
+
+    <footer>
+        <a href="https://github.com/your-username" target="_blank">GitHub</a>
+        &copy; 2024 Your Name
+    </footer>
+
 </body>
+
 </html>

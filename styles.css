@@ -1,50 +1,72 @@
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    background: linear-gradient(to bottom, #ff6699, #ffccff); /* Update with your preferred gradient colors */
-    animation: gradientAnimation 2s infinite alternate; /* Animation properties */
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-@keyframes gradientAnimation {
-    from {
-        background-position: 0% 0%;
-    }
-    to {
-        background-position: 100% 100%;
-    }
-}
-
-.card-container {
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
     text-align: center;
 }
 
+.profile {
+    max-width: 200px;
+    margin: 0 auto 20px;
+}
+
+.profile img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.profile h1,
+.profile p {
+    margin: 5px 0;
+}
+
 .card {
-    background-color: #ffcccc;
+    max-width: 800px;
+    margin: 20px auto;
     padding: 20px;
+    background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-h1 {
-    color: #e60000;
-    font-family: 'Arial', sans-serif;
-    margin: 0;
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-.buttons {
-    margin-top: 20px;
+h2 {
+    color: #007bff;
 }
 
-button {
-    background-color: #e60000;
+p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
     color: #fff;
-    padding: 10px 20px;
-    margin: 0 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
 }
