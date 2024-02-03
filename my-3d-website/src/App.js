@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import profilePicture from './profile-picture.jpg';
+import profilePicture from './profile.jpg';
 import resumePDF from './your-resume.pdf'; // Replace with your actual PDF file
 
 function App() {
