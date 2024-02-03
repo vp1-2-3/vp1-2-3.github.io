@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import profilePicture from './profile.jpg';
+import profilePicture from './pic.jpg';
 import resumePDF from './your-resume.pdf'; // Replace with your actual PDF file
 
 function App() {
@@ -17,7 +17,7 @@ function ProfileCard() {
   return (
     <div className="profile-card">
       <div className="card-header">
-        <img src={profilePicture} alt="Profile" className="profile-picture" />
+        <img src={profilePicture} alt="Profile" className="pic" />
         <h1>Victor Prieto</h1>
         <p>Programmer</p>
       </div>
