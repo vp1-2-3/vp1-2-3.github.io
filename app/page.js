@@ -81,7 +81,7 @@ export default function Home() {
                         with a Bachelors in Computer Science and a Minor in Mathematics.</span>
                     </p>
                     <div className="call-to-action">
-                        <a href="./Resume - M.pdf" className="button black">
+                        <a href="./public/Resume - M.pdf" className="button black">
                             View Resume
                         </a>
                         <a href="mailto:victordavidprieto@gmail.com" className="button white">
@@ -90,46 +90,46 @@ export default function Home() {
                     </div>
                     <div className="social-links">
                         <a href="#">
-                            <img src="./imgs/github.png" alt="GitHub" width="48"/>
+                            <img src="./public/imgs/github.png" alt="GitHub" width="48"/>
                         </a>
                         <a href="#">
-                            <img src="./imgs/linkedin.png" alt="LinkedIn" width="48"/>
+                            <img src="./public/imgs/linkedin.png" alt="LinkedIn" width="48"/>
                         </a>
                     </div>
                 </div>
             </div>
             <div className="hero-yellow">
-                <img src="./imgs/picture.png" alt="Victor Prieto" width="100%" />
+                <img src="./public/imgs/picture.png" alt="Victor Prieto" width="100%" />
             </div>
         </section>
         <section className="logos container">
             <div className="marquee">
                 <div className="track">
-                    <img src="./imgs/html.png" alt="HTML" width="112"/>
-                    <img src="./imgs/css.png" alt="CSS" width="112"/>
-                    <img src="./imgs/py.png" alt="Python" width="112"/>
-                    <img src="./imgs/cpp.png" alt="C++" width="112"/>
-                    <img src="./imgs/vscode.png" alt="VS Code" width="112"/>
-                    <img src="./imgs/html.png" alt="HTML" width="112"/>
-                    <img src="./imgs/css.png" alt="CSS" width="112"/>
-                    <img src="./imgs/py.png" alt="Python" width="112"/>
-                    <img src="./imgs/cpp.png" alt="C++" width="112"/>
-                    <img src="./imgs/vscode.png" alt="VS Code" width="112"/>
-                    <img src="./imgs/html.png" alt="HTML" width="112"/>
-                    <img src="./imgs/css.png" alt="CSS" width="112"/>
-                    <img src="./imgs/py.png" alt="Python" width="112"/>
-                    <img src="./imgs/cpp.png" alt="C++" width="112"/>
-                    <img src="./imgs/vscode.png" alt="VS Code" width="112"/>
-                    <img src="./imgs/html.png" alt="HTML" width="112"/>
-                    <img src="./imgs/css.png" alt="CSS" width="112"/>
-                    <img src="./imgs/py.png" alt="Python" width="112"/>
-                    <img src="./imgs/cpp.png" alt="C++" width="112"/>
-                    <img src="./imgs/vscode.png" alt="VS Code" width="112"/>
-                    <img src="./imgs/html.png" alt="HTML" width="112"/>
-                    <img src="./imgs/css.png" alt="CSS" width="112"/>
-                    <img src="./imgs/py.png" alt="Python" width="112"/>
-                    <img src="./imgs/cpp.png" alt="C++" width="112"/>
-                    <img src="./imgs/vscode.png" alt="VS Code" width="112"/>
+                    <img src="./public/imgs/html.png" alt="HTML" width="112"/>
+                    <img src="./public/imgs/css.png" alt="CSS" width="112"/>
+                    <img src="./public/imgs/py.png" alt="Python" width="112"/>
+                    <img src="./public/imgs/cpp.png" alt="C++" width="112"/>
+                    <img src="./public/imgs/vscode.png" alt="VS Code" width="112"/>
+                    <img src="./public/imgs/html.png" alt="HTML" width="112"/>
+                    <img src="./public/imgs/css.png" alt="CSS" width="112"/>
+                    <img src="./public/imgs/py.png" alt="Python" width="112"/>
+                    <img src="./public/imgs/cpp.png" alt="C++" width="112"/>
+                    <img src="./public/imgs/vscode.png" alt="VS Code" width="112"/>
+                    <img src="./public/imgs/html.png" alt="HTML" width="112"/>
+                    <img src="./public/imgs/css.png" alt="CSS" width="112"/>
+                    <img src="./public/imgs/py.png" alt="Python" width="112"/>
+                    <img src="./public/imgs/cpp.png" alt="C++" width="112"/>
+                    <img src="./public/imgs/vscode.png" alt="VS Code" width="112"/>
+                    <img src="./public/imgs/html.png" alt="HTML" width="112"/>
+                    <img src="./public/imgs/css.png" alt="CSS" width="112"/>
+                    <img src="./public/imgs/py.png" alt="Python" width="112"/>
+                    <img src="./public/imgs/cpp.png" alt="C++" width="112"/>
+                    <img src="./public/imgs/vscode.png" alt="VS Code" width="112"/>
+                    <img src="./public/imgs/html.png" alt="HTML" width="112"/>
+                    <img src="./public/imgs/css.png" alt="CSS" width="112"/>
+                    <img src="./public/imgs/py.png" alt="Python" width="112"/>
+                    <img src="./public/imgs/cpp.png" alt="C++" width="112"/>
+                    <img src="./public/imgs/vscode.png" alt="VS Code" width="112"/>
                 </div>
             </div>
         </section>
@@ -183,7 +183,7 @@ export default function Home() {
                 <article>
                     <figure>
                         <div>
-                            <img src="./imgs/workplace-1.jpg" alt="Floor Associate" width="100%"/>
+                            <img src="./public/imgs/workplace-1.jpg" alt="Floor Associate" width="100%"/>
                             <figcaption>
                                 Floor Associate
                             </figcaption>
@@ -199,7 +199,7 @@ export default function Home() {
                 <article>
                     <figure>
                         <div>
-                            <img src="./imgs/workplace-2.jpg" alt="Warehouse Associate" width="100%"/>
+                            <img src="./public/imgs/workplace-2.jpg" alt="Warehouse Associate" width="100%"/>
                             <figcaption>
                                 Warehouse Assocaite
                             </figcaption>
@@ -220,22 +220,22 @@ export default function Home() {
             </h2>
             <div className="bento-grid">
                 <a href="#" className="bento-item">
-                    <img src="./imgs/bento-1.jpg" alt="Space Website" width="100%"/>
+                    <img src="./public/imgs/bento-1.jpg" alt="Space Website" width="100%"/>
                     </a>
                 <a href="#" className="bento-item">
-                    <img src="./imgs/bento-2.jpg" alt="Coin Chase" width="100%"/>
+                    <img src="./public/imgs/bento-2.jpg" alt="Coin Chase" width="100%"/>
                     </a>
                 <a href="#" className="bento-item">
-                    <img src="./imgs/bento-3.jpg" alt="Sockets" width="100%"/>
+                    <img src="./public/imgs/bento-3.jpg" alt="Sockets" width="100%"/>
                     </a>
                 <a href="#" className="bento-item">
-                    <img src="./imgs/bento-4.jpg" alt="Edit Distance" width="100%"/>
+                    <img src="./public/imgs/bento-4.jpg" alt="Edit Distance" width="100%"/>
                     </a>
                 <a href="#" className="bento-item">
-                    <img src="./imgs/bento-5.jpg" alt="Calculator" width="100%"/>
+                    <img src="./public/imgs/bento-5.jpg" alt="Calculator" width="100%"/>
                     </a>
                 <a href="#" className="bento-item">
-                    <img src="./imgs/bento-6.jpg" alt="Machine Learning" width="100%"/>
+                    <img src="./public/imgs/bento-6.jpg" alt="Machine Learning" width="100%"/>
                     </a>
             </div>
         </section>
@@ -257,7 +257,7 @@ export default function Home() {
                         to my resume. I am always looking for new opportunities,
                         so if you have any opportunities I seem fit for, lets get in touch!
                     </p>
-                    <a href="./Resume - M.pdf" className="button black">Download Resume</a>
+                    <a href="./public/Resume - M.pdf" className="button black">Download Resume</a>
                 </div>
                 <div className="chat-box">
                     <div className="scroll-area">
