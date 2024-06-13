@@ -220,22 +220,22 @@ export default function Home() {
             </h2>
             <div className="bento-grid">
                 <a href="#" className="bento-item">
-                    <img src="./public/imgs/bento-1.jpg" alt="Space Website" width="100%"/>
+                    <img src="./imgs/bento-1.jpg" alt="Space Website" width="100%"/>
                     </a>
                 <a href="#" className="bento-item">
-                    <img src="./public/imgs/bento-2.jpg" alt="Coin Chase" width="100%"/>
+                    <img src="./imgs/bento-2.jpg" alt="Coin Chase" width="100%"/>
                     </a>
                 <a href="#" className="bento-item">
-                    <img src="./public/imgs/bento-3.jpg" alt="Sockets" width="100%"/>
+                    <img src="./imgs/bento-3.jpg" alt="Sockets" width="100%"/>
                     </a>
                 <a href="#" className="bento-item">
-                    <img src="./public/imgs/bento-4.jpg" alt="Edit Distance" width="100%"/>
+                    <img src="./imgs/bento-4.jpg" alt="Edit Distance" width="100%"/>
                     </a>
                 <a href="#" className="bento-item">
-                    <img src="./public/imgs/bento-5.jpg" alt="Calculator" width="100%"/>
+                    <img src="./imgs/bento-5.jpg" alt="Calculator" width="100%"/>
                     </a>
                 <a href="#" className="bento-item">
-                    <img src="./public/imgs/bento-6.jpg" alt="Machine Learning" width="100%"/>
+                    <img src="./imgs/bento-6.jpg" alt="Machine Learning" width="100%"/>
                     </a>
             </div>
         </section>
