@@ -41,7 +41,7 @@ export default function Home() {
     <>
       <header>
         <a href="#" className="logo-holder">
-            <div className="logo">L</div>
+            <div className="logo">VP</div>
             <div className="logo-text">Portfolio Website</div>
         </a>
         <nav>
@@ -219,22 +219,22 @@ export default function Home() {
                 Completed Projects
             </h2>
             <div className="bento-grid">
-                <a href="#" className="bento-item">
+                <a href="https://github.com/Michael-Scrumlord/254-Project" className="bento-item">
                     <img src="./imgs/bento-1.jpg" alt="Space Website" width="100%"/>
                     </a>
-                <a href="#" className="bento-item">
+                <a href="https://github.com/DannyCamacho/coin-chase-pygame" className="bento-item">
                     <img src="./imgs/bento-2.jpg" alt="Coin Chase" width="100%"/>
                     </a>
-                <a href="#" className="bento-item">
+                <a href="https://github.com/BrandonChang1/cpsc471project" className="bento-item">
                     <img src="./imgs/bento-3.jpg" alt="Sockets" width="100%"/>
                     </a>
-                <a href="#" className="bento-item">
+                <a href="https://github.com/vp1-2-3/Edit-Distance" className="bento-item">
                     <img src="./imgs/bento-4.jpg" alt="Edit Distance" width="100%"/>
                     </a>
-                <a href="#" className="bento-item">
+                <a href="https://github.com/vp1-2-3/362proj" className="bento-item">
                     <img src="./imgs/bento-5.jpg" alt="Calculator" width="100%"/>
                     </a>
-                <a href="#" className="bento-item">
+                <a href="https://github.com/vp1-2-3/Flowers-ML" className="bento-item">
                     <img src="./imgs/bento-6.jpg" alt="Machine Learning" width="100%"/>
                     </a>
             </div>
