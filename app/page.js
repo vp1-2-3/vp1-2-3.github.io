@@ -199,7 +199,7 @@ export default function Home() {
                 <article>
                     <figure>
                         <div>
-                            <img src="./public/imgs/workplace-2.jpg" alt="Warehouse Associate" width="100%"/>
+                            <img src="./imgs/workplace-2.jpg" alt="Warehouse Associate" width="100%"/>
                             <figcaption>
                                 Warehouse Assocaite
                             </figcaption>
