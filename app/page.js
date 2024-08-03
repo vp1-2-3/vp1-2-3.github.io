@@ -81,7 +81,7 @@ export default function Home() {
                         with a Bachelors in Computer Science and a Minor in Mathematics.</span>
                     </p>
                     <div className="call-to-action">
-                        <a href="./Resume - M.pdf" className="button black">
+                        <a href="./VDP-RES.pdf" className="button black">
                             View Resume
                         </a>
                         <a href="mailto:victordavidprieto@gmail.com" className="button white">
@@ -257,7 +257,7 @@ export default function Home() {
                         to my resume. I am always looking for new opportunities,
                         so if you have any opportunities I seem fit for, lets get in touch!
                     </p>
-                    <a href="./Resume - M.pdf" className="button black">Download Resume</a>
+                    <a href="./VDP-RES.pdf" className="button black">Download Resume</a>
                 </div>
                 <div className="chat-box">
                     <div className="scroll-area">
