@@ -249,15 +249,13 @@ export default function Home() {
             <div className="chatbot-blue">
                 <div className="chat-info">
                     <h3>Azure AI Chatbot</h3>
-                    <p>This chatbot knows all my skills, work experience,
-                        and has a copy of my resume. Ask it questions about me
-                        to get a better idea of who I am and what I have done.
+                    <p>The cahtbot functionality has been removed and is being revamped.
                     </p>
                     <p>There is also a download here if you want to go straight
                         to my resume. I am always looking for new opportunities,
                         so if you have any opportunities I seem fit for, lets get in touch!
                     </p>
-                    <a href="./VDP-RES.pdf" className="button black">Download Resume</a>
+                    <a href="./ResumeI.pdf" className="button black">Download Resume</a>
                 </div>
                 <div className="chat-box">
                     <div className="scroll-area">
