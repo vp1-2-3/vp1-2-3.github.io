@@ -81,7 +81,7 @@ export default function Home() {
                         with a Bachelors in Computer Science and a Minor in Mathematics.</span>
                     </p>
                     <div className="call-to-action">
-                        <a href="./VDP-RES.pdf" className="button black">
+                        <a href="./ResumeI.pdf" className="button black">
                             View Resume
                         </a>
                         <a href="mailto:victordavidprieto@gmail.com" className="button white">
@@ -249,7 +249,7 @@ export default function Home() {
             <div className="chatbot-blue">
                 <div className="chat-info">
                     <h3>Azure AI Chatbot</h3>
-                    <p>The cahtbot functionality has been removed and is being revamped.
+                    <p>The chatbot functionality has been removed and is being revamped.
                     </p>
                     <p>There is also a download here if you want to go straight
                         to my resume. I am always looking for new opportunities,
